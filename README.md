@@ -22,5 +22,7 @@ Click origin button can reset the model color.
 ##Rotate
 Click rotate button to rotate model
 
-##camera
+##camera control
 Gesture to control camera
+
+**Change you own Apple account to sign codes if you want to run it on your iPhone**
