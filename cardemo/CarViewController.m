@@ -27,7 +27,7 @@
     
     [self buildScene:self.currentCar andScnView:self.sceneView];
     self.sceneView.allowsCameraControl = YES;
-    self.sceneView.showsStatistics = YES;
+//    self.sceneView.showsStatistics = YES;
 }
 
 #pragma mark - build 3D scene
