@@ -10,7 +10,7 @@
 		CA55CF8A1CB278EA0071DF99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF891CB278EA0071DF99 /* main.m */; };
 		CA55CF8D1CB278EA0071DF99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF8C1CB278EA0071DF99 /* AppDelegate.m */; };
 		CA55CF8F1CB278EA0071DF99 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF8E1CB278EA0071DF99 /* art.scnassets */; };
-		CA55CF921CB278EA0071DF99 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF911CB278EA0071DF99 /* GameViewController.m */; };
+		CA55CF921CB278EA0071DF99 /* CarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF911CB278EA0071DF99 /* CarViewController.m */; };
 		CA55CF951CB278EA0071DF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF931CB278EA0071DF99 /* Main.storyboard */; };
 		CA55CF971CB278EA0071DF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF961CB278EA0071DF99 /* Assets.xcassets */; };
 		CA55CF9A1CB278EA0071DF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF981CB278EA0071DF99 /* LaunchScreen.storyboard */; };
@@ -41,8 +41,8 @@
 		CA55CF8B1CB278EA0071DF99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		CA55CF8C1CB278EA0071DF99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		CA55CF8E1CB278EA0071DF99 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		CA55CF901CB278EA0071DF99 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
-		CA55CF911CB278EA0071DF99 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CA55CF901CB278EA0071DF99 /* CarViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CarViewController.h; sourceTree = "<group>"; };
+		CA55CF911CB278EA0071DF99 /* CarViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CarViewController.m; sourceTree = "<group>"; };
 		CA55CF941CB278EA0071DF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		CA55CF961CB278EA0071DF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA55CF991CB278EA0071DF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -106,8 +106,8 @@
 				CA55CF8B1CB278EA0071DF99 /* AppDelegate.h */,
 				CA55CF8C1CB278EA0071DF99 /* AppDelegate.m */,
 				CA55CF8E1CB278EA0071DF99 /* art.scnassets */,
-				CA55CF901CB278EA0071DF99 /* GameViewController.h */,
-				CA55CF911CB278EA0071DF99 /* GameViewController.m */,
+				CA55CF901CB278EA0071DF99 /* CarViewController.h */,
+				CA55CF911CB278EA0071DF99 /* CarViewController.m */,
 				CA55CF931CB278EA0071DF99 /* Main.storyboard */,
 				CA55CF961CB278EA0071DF99 /* Assets.xcassets */,
 				CA55CF981CB278EA0071DF99 /* LaunchScreen.storyboard */,
@@ -210,6 +210,7 @@
 				TargetAttributes = {
 					CA55CF841CB278EA0071DF99 = {
 						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = EZ3H7Z8Y3C;
 					};
 					CA55CF9F1CB278EA0071DF99 = {
 						CreatedOnToolsVersion = 7.3;
@@ -275,7 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CA55CF8D1CB278EA0071DF99 /* AppDelegate.m in Sources */,
-				CA55CF921CB278EA0071DF99 /* GameViewController.m in Sources */,
+				CA55CF921CB278EA0071DF99 /* CarViewController.m in Sources */,
 				CA55CF8A1CB278EA0071DF99 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -368,7 +369,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -407,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -419,10 +420,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = cardemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -430,10 +434,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = cardemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -504,6 +511,7 @@
 				CA55CFB61CB278EA0071DF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA55CFB71CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemoTests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				CA55CFB91CB278EA0071DF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CA55CFBA1CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +529,7 @@
 				CA55CFBC1CB278EA0071DF99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
