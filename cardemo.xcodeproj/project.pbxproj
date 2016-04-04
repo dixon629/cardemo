@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA55CF8A1CB278EA0071DF99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF891CB278EA0071DF99 /* main.m */; };
+		CA55CF8D1CB278EA0071DF99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF8C1CB278EA0071DF99 /* AppDelegate.m */; };
+		CA55CF8F1CB278EA0071DF99 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF8E1CB278EA0071DF99 /* art.scnassets */; };
+		CA55CF921CB278EA0071DF99 /* GameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CF911CB278EA0071DF99 /* GameViewController.m */; };
+		CA55CF951CB278EA0071DF99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF931CB278EA0071DF99 /* Main.storyboard */; };
+		CA55CF971CB278EA0071DF99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF961CB278EA0071DF99 /* Assets.xcassets */; };
+		CA55CF9A1CB278EA0071DF99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CA55CF981CB278EA0071DF99 /* LaunchScreen.storyboard */; };
+		CA55CFA51CB278EA0071DF99 /* cardemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CFA41CB278EA0071DF99 /* cardemoTests.m */; };
+		CA55CFB01CB278EA0071DF99 /* cardemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CA55CFAF1CB278EA0071DF99 /* cardemoUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CA55CFA11CB278EA0071DF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA55CF7D1CB278EA0071DF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55CF841CB278EA0071DF99;
+			remoteInfo = cardemo;
+		};
+		CA55CFAC1CB278EA0071DF99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CA55CF7D1CB278EA0071DF99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CA55CF841CB278EA0071DF99;
+			remoteInfo = cardemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CA55CF851CB278EA0071DF99 /* cardemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cardemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55CF891CB278EA0071DF99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CA55CF8B1CB278EA0071DF99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CA55CF8C1CB278EA0071DF99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CA55CF8E1CB278EA0071DF99 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		CA55CF901CB278EA0071DF99 /* GameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameViewController.h; sourceTree = "<group>"; };
+		CA55CF911CB278EA0071DF99 /* GameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GameViewController.m; sourceTree = "<group>"; };
+		CA55CF941CB278EA0071DF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CA55CF961CB278EA0071DF99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA55CF991CB278EA0071DF99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CA55CF9B1CB278EA0071DF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55CFA01CB278EA0071DF99 /* cardemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55CFA41CB278EA0071DF99 /* cardemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardemoTests.m; sourceTree = "<group>"; };
+		CA55CFA61CB278EA0071DF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA55CFAB1CB278EA0071DF99 /* cardemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = cardemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA55CFAF1CB278EA0071DF99 /* cardemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cardemoUITests.m; sourceTree = "<group>"; };
+		CA55CFB11CB278EA0071DF99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA55CF821CB278EA0071DF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55CF9D1CB278EA0071DF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55CFA81CB278EA0071DF99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA55CF7C1CB278EA0071DF99 = {
+			isa = PBXGroup;
+			children = (
+				CA55CF871CB278EA0071DF99 /* cardemo */,
+				CA55CFA31CB278EA0071DF99 /* cardemoTests */,
+				CA55CFAE1CB278EA0071DF99 /* cardemoUITests */,
+				CA55CF861CB278EA0071DF99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA55CF861CB278EA0071DF99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA55CF851CB278EA0071DF99 /* cardemo.app */,
+				CA55CFA01CB278EA0071DF99 /* cardemoTests.xctest */,
+				CA55CFAB1CB278EA0071DF99 /* cardemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA55CF871CB278EA0071DF99 /* cardemo */ = {
+			isa = PBXGroup;
+			children = (
+				CA55CF8B1CB278EA0071DF99 /* AppDelegate.h */,
+				CA55CF8C1CB278EA0071DF99 /* AppDelegate.m */,
+				CA55CF8E1CB278EA0071DF99 /* art.scnassets */,
+				CA55CF901CB278EA0071DF99 /* GameViewController.h */,
+				CA55CF911CB278EA0071DF99 /* GameViewController.m */,
+				CA55CF931CB278EA0071DF99 /* Main.storyboard */,
+				CA55CF961CB278EA0071DF99 /* Assets.xcassets */,
+				CA55CF981CB278EA0071DF99 /* LaunchScreen.storyboard */,
+				CA55CF9B1CB278EA0071DF99 /* Info.plist */,
+				CA55CF881CB278EA0071DF99 /* Supporting Files */,
+			);
+			path = cardemo;
+			sourceTree = "<group>";
+		};
+		CA55CF881CB278EA0071DF99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CA55CF891CB278EA0071DF99 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CA55CFA31CB278EA0071DF99 /* cardemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CA55CFA41CB278EA0071DF99 /* cardemoTests.m */,
+				CA55CFA61CB278EA0071DF99 /* Info.plist */,
+			);
+			path = cardemoTests;
+			sourceTree = "<group>";
+		};
+		CA55CFAE1CB278EA0071DF99 /* cardemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CA55CFAF1CB278EA0071DF99 /* cardemoUITests.m */,
+				CA55CFB11CB278EA0071DF99 /* Info.plist */,
+			);
+			path = cardemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA55CF841CB278EA0071DF99 /* cardemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55CFB41CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemo" */;
+			buildPhases = (
+				CA55CF811CB278EA0071DF99 /* Sources */,
+				CA55CF821CB278EA0071DF99 /* Frameworks */,
+				CA55CF831CB278EA0071DF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cardemo;
+			productName = cardemo;
+			productReference = CA55CF851CB278EA0071DF99 /* cardemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CA55CF9F1CB278EA0071DF99 /* cardemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55CFB71CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemoTests" */;
+			buildPhases = (
+				CA55CF9C1CB278EA0071DF99 /* Sources */,
+				CA55CF9D1CB278EA0071DF99 /* Frameworks */,
+				CA55CF9E1CB278EA0071DF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA55CFA21CB278EA0071DF99 /* PBXTargetDependency */,
+			);
+			name = cardemoTests;
+			productName = cardemoTests;
+			productReference = CA55CFA01CB278EA0071DF99 /* cardemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CA55CFAA1CB278EA0071DF99 /* cardemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA55CFBA1CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemoUITests" */;
+			buildPhases = (
+				CA55CFA71CB278EA0071DF99 /* Sources */,
+				CA55CFA81CB278EA0071DF99 /* Frameworks */,
+				CA55CFA91CB278EA0071DF99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CA55CFAD1CB278EA0071DF99 /* PBXTargetDependency */,
+			);
+			name = cardemoUITests;
+			productName = cardemoUITests;
+			productReference = CA55CFAB1CB278EA0071DF99 /* cardemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA55CF7D1CB278EA0071DF99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = guanhui;
+				TargetAttributes = {
+					CA55CF841CB278EA0071DF99 = {
+						CreatedOnToolsVersion = 7.3;
+					};
+					CA55CF9F1CB278EA0071DF99 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA55CF841CB278EA0071DF99;
+					};
+					CA55CFAA1CB278EA0071DF99 = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = CA55CF841CB278EA0071DF99;
+					};
+				};
+			};
+			buildConfigurationList = CA55CF801CB278EA0071DF99 /* Build configuration list for PBXProject "cardemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA55CF7C1CB278EA0071DF99;
+			productRefGroup = CA55CF861CB278EA0071DF99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA55CF841CB278EA0071DF99 /* cardemo */,
+				CA55CF9F1CB278EA0071DF99 /* cardemoTests */,
+				CA55CFAA1CB278EA0071DF99 /* cardemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA55CF831CB278EA0071DF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55CF8F1CB278EA0071DF99 /* art.scnassets in Resources */,
+				CA55CF9A1CB278EA0071DF99 /* LaunchScreen.storyboard in Resources */,
+				CA55CF971CB278EA0071DF99 /* Assets.xcassets in Resources */,
+				CA55CF951CB278EA0071DF99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55CF9E1CB278EA0071DF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55CFA91CB278EA0071DF99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA55CF811CB278EA0071DF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55CF8D1CB278EA0071DF99 /* AppDelegate.m in Sources */,
+				CA55CF921CB278EA0071DF99 /* GameViewController.m in Sources */,
+				CA55CF8A1CB278EA0071DF99 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55CF9C1CB278EA0071DF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55CFA51CB278EA0071DF99 /* cardemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA55CFA71CB278EA0071DF99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA55CFB01CB278EA0071DF99 /* cardemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CA55CFA21CB278EA0071DF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55CF841CB278EA0071DF99 /* cardemo */;
+			targetProxy = CA55CFA11CB278EA0071DF99 /* PBXContainerItemProxy */;
+		};
+		CA55CFAD1CB278EA0071DF99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CA55CF841CB278EA0071DF99 /* cardemo */;
+			targetProxy = CA55CFAC1CB278EA0071DF99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CA55CF931CB278EA0071DF99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA55CF941CB278EA0071DF99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CA55CF981CB278EA0071DF99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CA55CF991CB278EA0071DF99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CA55CFB21CB278EA0071DF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CA55CFB31CB278EA0071DF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CA55CFB51CB278EA0071DF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cardemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CA55CFB61CB278EA0071DF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = cardemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CA55CFB81CB278EA0071DF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = cardemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardemo.app/cardemo";
+			};
+			name = Debug;
+		};
+		CA55CFB91CB278EA0071DF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = cardemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/cardemo.app/cardemo";
+			};
+			name = Release;
+		};
+		CA55CFBB1CB278EA0071DF99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = cardemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cardemo;
+			};
+			name = Debug;
+		};
+		CA55CFBC1CB278EA0071DF99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = cardemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.guanhui.cardemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = cardemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA55CF801CB278EA0071DF99 /* Build configuration list for PBXProject "cardemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55CFB21CB278EA0071DF99 /* Debug */,
+				CA55CFB31CB278EA0071DF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA55CFB41CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55CFB51CB278EA0071DF99 /* Debug */,
+				CA55CFB61CB278EA0071DF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA55CFB71CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55CFB81CB278EA0071DF99 /* Debug */,
+				CA55CFB91CB278EA0071DF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CA55CFBA1CB278EA0071DF99 /* Build configuration list for PBXNativeTarget "cardemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA55CFBB1CB278EA0071DF99 /* Debug */,
+				CA55CFBC1CB278EA0071DF99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA55CF7D1CB278EA0071DF99 /* Project object */;
+}
