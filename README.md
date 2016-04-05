@@ -13,11 +13,11 @@ sketchup
 version 7.3
 
 ##Switch 3d model
-There are 3 models: GLA , AMG and GLA concept model, can click to switch model.
+There are 3 models: GLA , AMG and GLA concept model,click  button to switch model.
 
 ##Mutliple color support
-Click blue button can update the model color to blue, it's easy to support more colors.
-Click origin button can reset the model color.
+Click blue button to update the model color to blue, it's easy to support more colors.
+Click origin button to reset the model color.
 
 ##Rotate
 Click rotate button to rotate model
@@ -25,4 +25,4 @@ Click rotate button to rotate model
 ##camera control
 Gesture to control camera
 
-**Change you own Apple account to sign codes if you want to run it on your iPhone**
+**Change to you own Apple account to sign codes if you want to run it on your iPhone**
